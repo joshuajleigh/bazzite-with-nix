@@ -2,7 +2,7 @@
 
 set -ouex pipefail
 
-mkdir /nix
+ln -s /var/nix /nix
 
 ### Install packages
 
