@@ -2,8 +2,6 @@
 
 set -ouex pipefail
 
-ln -s /var/nix /nix
-
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
