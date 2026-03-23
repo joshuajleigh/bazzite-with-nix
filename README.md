@@ -1,3 +1,10 @@
+# Bazzite With /nix
+Nix fails to install on Fedora 42 based os-tree distros (see https://github.com/DeterminateSystems/nix-installer/issues…
+One solution is to pre-create a top-level `/nix` directory in the image.
+…nstructions in [this comment](https://github.com/DeterminateSystems/nix-installer/issues/1445#issuecomment-2816777981),
+this image follows bazzite-deck and adds a /nix directory.
+- see: /build_files/build.sh
+
 # image-template
 
 This repository is meant to be a template for building your own custom [bootc](https://github.com/bootc-dev/bootc) image. This template is the recommended way to make customizations to any image published by the Universal Blue Project.
